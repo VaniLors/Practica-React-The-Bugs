@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import Oficina from './pages/Oficina'
 import './App.css'
 
 function App() {
@@ -6,7 +7,7 @@ function App() {
 
   return (
     <>
-        
+      <Oficina />
     </>
   )
 }
