@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 10% 20% 10% 20%;
+}
+
+.ventana{
+    height: 400px;
+    width: 700px;
+    border: 3px solid #f4f4f4;
+    height: 100%;
+}
+.header{
+    background-color: black;
+    color: white;
+    font-size: 15px;
+}
+.text{
+    background-color: rgba(46, 103, 151);
+    color: white;
+    font-weight: bold;
+    height: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    font-size: 20px;
+}
+
+
+.seciones{
+    margin: 0 5% 0 5%;
+}
+
+
+section{
+    background-color: #f4f4f4;
+}
+.table{
+    margin: 0 15% 0 15%;
+    border:  1px solid black;
+}
+
+th{
+    background-color: #004080;
+    color: white;
+}
+
+.table-1{
+    width: 200px;
+}
+.table-2{
+    width: 300px;
+}
+
+tr{
+    height: 20px;
+    
+}
+
+input{
+    width: 30px;
+    text-align: end;
+    
+}
+
+
+.contenedor-formulario {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    padding: 10px;
+    color: #004080;
+}
+
+.fila {
+    display: flex;
+    align-items: center; 
+    gap: 8px;
+}
+
+.fila-gap{
+    display: flex;
+    align-items: center; 
+    gap: 25px;
+}
+.fila-gap-2{
+    display: flex;
+    align-items: center; 
+    gap: 55px;
+}
+.grupo-izquierda, .grupo-derecha {
+    display: flex;
+    flex-direction: column; 
+    gap: 10px; 
+}
+.grupo-derecha input{
+    width: 400px;
+}
+
+select {
+    width: 80%;
+}
+
+textarea{
+    display: flex;
+    width: 320px;
+    padding-top: 10px;
+    text-align: center;
+
+}
+
+.text-area{
+    resize: none;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 2% 0 2% 0;
+    background-color: #f4f4f4;
+    
+
+}
+
+.btn-blue{
+    color: white;
+    width: 80px;
+    background: linear-gradient(
+    rgba(82, 149, 167, 1),
+    rgba(0, 45, 65));
+    border: 2px solid #cccccc;
+}
+
+.btn-plomo{
+    background-color: rgb(135, 124, 124);
+    width: 80px;
+    color: white;
+    border: 2px solid #cccccc;
+}
+
+.parrafo{
+    display: flex;
+    justify-content: flex-start;
+    color: white;
+    background-color: rgba(46, 103, 151);
+    padding: 5px 0 0 20px;
+}
