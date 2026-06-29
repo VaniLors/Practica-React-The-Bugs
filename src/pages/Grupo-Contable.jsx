@@ -47,7 +47,7 @@ function GrupoContable(){
         <>
         <div className='ventana'>
             <header className='header'>
-                <b>GRUPOS CONTABLES</b>
+                Grupos Contables
             </header>
             <main className='main'>
                     <div className='parrafo'>
