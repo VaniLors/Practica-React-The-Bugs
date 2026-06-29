@@ -2,3 +2,8 @@
   margin: 0;
   padding: 0;
 }
+@import url('package:google_fonts/google_fonts.dart');
+
+body {
+  font-family: "Roboto", sans-serif; ;
+}
