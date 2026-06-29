@@ -1,9 +1,20 @@
-*{
+* {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
-@import url('package:google_fonts/google_fonts.dart');
 
 body {
-  font-family: "Roboto", sans-serif; ;
+  font-family: 'Roboto', sans-serif;
+}
+
+.app-shell {
+  display: flex;
+  min-height: 100vh;
+}
+
+.app-main {
+  flex: 1;
+  padding: 150px 0 0 300px;
+  overflow-y: auto;
 }

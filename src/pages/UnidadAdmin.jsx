@@ -25,10 +25,9 @@ export default function UnidadAdmin() {
   };
 
   return (
-    <div className="vsiaf-container">
+    <div>
       {vista === 'tabla' && (
         <div className="window-panel main-window">
-          <div className="window-header">SISTEMA DE ACTIVOS FIJOS</div>
           <div className="window-subheader">Unidad Administrativa</div>
           
           <div className="title-banner">

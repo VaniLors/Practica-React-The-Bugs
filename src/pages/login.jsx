@@ -1,9 +1,12 @@
-import React from "react";
+import React from 'react'
 import '../styles/login.css'
-function login (){
-    return (
+
+function Login() {
+  return (
     <>
         <h1>holamundo</h1>
     </>
   )
 }
+
+export default Login
