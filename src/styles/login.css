@@ -1,0 +1,134 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.vsiaf-container {
+  width: 700px;
+  height: 400px;
+  border: 2px solid #bdbdbd;
+  font-family: Arial, Helvetica, sans-serif;
+  background: white;
+  overflow: hidden;
+}
+
+.top-bar {
+  height: 34px;
+  background: linear-gradient(to right, #000, #444);
+  color: white;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+  font-size: 14px;
+}
+
+.header {
+  height: 110px;
+  background: linear-gradient(
+    to bottom,
+    #2e6da4,
+    #24537f
+  );
+  display: flex;
+  align-items: center;
+  padding-left: 80px;
+  color: white;
+}
+
+.logo-area h1 {
+  font-size: 42px;
+  letter-spacing: 4px;
+}
+
+.logo-area span {
+  font-size: 20px;
+  font-style: italic;
+}
+
+.content {
+  height: 180px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f5f5f5;
+}
+
+.login-box {
+  width: 470px;
+  background: #d7e7fa;
+  border: 1px solid #9ab6d4;
+}
+
+.login-box h2 {
+  color: #1f5b93;
+  padding: 10px;
+  margin: -15px;
+  border-bottom: 1px solid #8fb0d4;
+}
+
+.form-row {
+  display: flex;
+  align-items: center;
+  padding: 12px;
+}
+
+.form-row label {
+  width: 220px;
+  color: #4a7eb2;
+  font-size: 20px;
+}
+
+.form-row input {
+  width: 180px;
+  height: 28px;
+  border: 1px solid #999;
+  padding-left: 8px;
+  font-size: 14px;
+}
+
+.bottom-row {
+  border-top: 1px solid #b7cce2;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nota {
+  font-weight: bold;
+  color: #163b63;
+  font-size: 14px;
+}
+
+button {
+  width: 90px;
+  height: 34px;
+  border: 1px solid #8a8a8a;
+  background: linear-gradient(
+    to bottom,
+    #ffffff,
+    #d5d5d5
+  );
+  cursor: pointer;
+  font-weight: bold;
+}
+
+button:hover {
+  background: linear-gradient(
+    to bottom,
+    #ffffff,
+    #c3d7f0
+  );
+}
+
+.footer {
+  height: 76px;
+  background: #003f7f;
+  color: white;
+  padding: 10px 30px;
+  font-weight: bold;
+  font-size: 13px;
+}
