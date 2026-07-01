@@ -4,6 +4,7 @@ import { NavLink } from "react-router-dom";
 import "../styles/Sidebar.css";
 import GrupoContable from "../pages/Grupo-Contable";
 import UnidadAdmin from "../pages/UnidadAdmin";
+import Home from "./Home";
 
 
 function Sidebar() {
@@ -13,7 +14,7 @@ function Sidebar() {
             <nav className="sidebar-nav">
 
                 <button className="btn-sidebar">
-                    <NavLink to="/" end className={({ isActive }) => isActive ? "sidebar-link activo" : "sidebar-link"}>Grupo Contable</NavLink>
+                    <NavLink to="/grupo-contable" end className={({ isActive }) => isActive ? "sidebar-link activo" : "sidebar-link"}>Grupo Contable</NavLink>
                 </button>
 
                 <button className="btn-sidebar">
@@ -21,7 +22,7 @@ function Sidebar() {
                 </button>
 
                 <button className="btn-sidebar">
-                    <NavLink to="/UnidadAdmin" end className={({ isActive }) => isActive ? "sidebar-link activo" : "sidebar-link"}>Seguridad</NavLink>
+                    <NavLink to="/UnidadAdmin" end className={({ isActive }) => isActive ? "sidebar-link activo" : "sidebar-link"}>Unidad Administrativa</NavLink>
                 </button>
 
                 {/* Aquí agregas los links de tus compañeros */}
