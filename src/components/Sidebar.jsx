@@ -16,11 +16,11 @@ function Sidebar() {
                     <NavLink to="/" end className={({ isActive }) => isActive ? "sidebar-link activo" : "sidebar-link"}>Grupo Contable</NavLink>
                 </button>
 
-                <button>
+                <button className="btn-sidebar">
                     <NavLink to="/login" className={({ isActive }) => isActive ? "sidebar-link activo" : "sidebar-link"}>Login</NavLink>
                 </button>
 
-                <button>
+                <button className="btn-sidebar">
                     <NavLink to="/UnidadAdmin" end className={({ isActive }) => isActive ? "sidebar-link activo" : "sidebar-link"}>Seguridad</NavLink>
                 </button>
 
