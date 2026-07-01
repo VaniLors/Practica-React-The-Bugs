@@ -2,8 +2,9 @@
 .sidebar {
     width: 280px;
     min-height: 100vh;
-    background-color: #c0c0c0;
-    border-right: 2px solid #000000;
+    background-color: wheat;
+    border-left: 4px solid #29597e;
+    border-right: 4px solid #29597e;
     padding: 8px 0;
     flex-shrink: 0;
 }
@@ -12,16 +13,17 @@
     color: #004080;
     font-size: 20px;
     padding: 4px 8px;
-    margin: 0 0 8px 0;
+    margin: 20px 0 8px 0;
     text-align: center;
 }
 
 .sidebar-nav {
     display: flex;
     flex-direction: column;
-    gap: 2px;
+    gap: 10px;
     padding: 0 4px;
-    margin: 0 7%;
+    margin: 10% 7%;
+    
 }
 
 .sidebar-link {
@@ -34,15 +36,10 @@
 }
 
 
-.sidebar-link.activo {
-    background-color: #3939a2; 
-    color: white;
-    border: 2px inset #ded4d4;
-    text-align: center;
-    margin: 10px;
-}
+
 
 .btn-sidebar{
     border: 1px solid #004080;
-    border-radius: 10px;
+    border-radius: 5px;
+    background: linear-gradient(#6e9dd3, #cef3fc);
 }

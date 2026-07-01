@@ -1,0 +1,22 @@
+.header-component{
+    display: flex;
+    background-color: #2d6695;
+    height: 80px;
+    padding: 0 0 0 20px;
+    color: white;
+}
+
+.img-bandera-bolivia{
+    width: 80px;
+    height: 60px;
+    padding: 15px 0 0 0;
+}
+
+.text-header-component{
+    padding: 0 0 0 30px;
+    
+}
+
+.span-header{
+    padding: 25px 0 0 900px;
+}
