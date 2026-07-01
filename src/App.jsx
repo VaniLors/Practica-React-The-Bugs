@@ -1,4 +1,6 @@
 import './App.css'
+import Seguridad from './pages/Seguridad'
+
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import UnidadAdmin from './pages/UnidadAdmin'
 import GrupoContable from './pages/Grupo-Contable'

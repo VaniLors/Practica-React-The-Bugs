@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #e5e5e5;
+}
+
+.contenedor {
+    width: 700px;
+    height: 400px;
+    margin: 30px auto;
+    background-color: #f0f0f0;
+    border: 2px solid #808080;
+
+    overflow: auto;
+}
+
+.header-seguridad {
+    color: white;
+    background-color: black;
+}
+
+.titulo {
+    background: linear-gradient(#3f79ad, #2a5f91);
+    color: white;
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.panel {
+    margin: 10px;
+    border: 2px solid #7ea1c2;
+    border-radius: 15px;
+    padding: 25px;
+}
+
+.fila-superior {
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #154f88;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    margin: -20px 0 0 0;
+
+}
+
+.fila-superior div {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+label {
+    font-weight: bold;
+    color: #154f88;
+    font-size: 12px;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 550px;
+    background: #dce9f7;
+    border: 1px solid #9eb5cd;
+    background: linear-gradient(#1d6da0, #0c4467);
+}
+
+.campo {
+    margin: 20px 0 20px 0;
+    height: 25px;
+    display: flex;
+    gap: 100px;
+
+}
+
+.campo label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+.campo input {
+    width: 100%;
+}
+
+textarea {
+    width: 350px;
+    height: 50px;
+    resize: none;
+    background: #dce9f7;
+    border: 1px solid #9eb5cd;
+    padding: 0 10px 20px 100px;
+}
+
+.campo-radio {
+    margin-top: 5px;
+    margin-bottom: -15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.campo-radio div {
+    padding: 0 0 0 170px;
+    margin-top: 10px;
+}
+
+.botonera {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 14px;
+    border-top: 2px solid #7ea1c2;
+}
+
+.botonera button {
+    width: 60px;
+    height: 30px;
+    background: linear-gradient(#1d6da0, #0c4467);
+    color: white;
+    border: 1px solid #083754;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.botonera button:hover {
+    transform: scale(1.05);
+}
+
+.botonera button:active {
+    transform: scale(0.97);
+}
