@@ -1,0 +1,293 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.ventana-activos-fijos{
+    margin: 100px 0 0 300px;
+    align-items: center;
+    width: 800px;
+    height: 770px;
+    border: 5px solid rgb(176, 181, 185);
+}
+
+
+.header-negro{
+    background-color: black;
+    color: white;
+    font-size: 10px;
+    font-size: bold;
+    height: 20px;
+    
+}
+
+
+.text-header-span{
+    display: flex;
+    flex-direction: column;
+    background-color: #1a415e;
+    color: white;
+    font-size: 13px;
+}
+
+.spaicing-tex-span{
+    display: flex;
+    gap: 20px;
+    row-gap: 1000px;
+}   
+
+.title{
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+}
+
+.secciones{
+    display: grid;
+    grid-template-columns: 90% 10%;
+}
+
+.section-buttons{
+    background-color: #093367;
+}
+
+
+.sidebar-button{
+    width: 65px;
+    height: 70px;
+
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    gap: 3px;
+    color: black;
+    margin: 15px 0 0 8px;
+
+    background:white;
+    border:2px solid #093367;
+    cursor:pointer;
+    
+}
+
+.icon{
+    font-size:25px;
+    color:#2d7dbd;
+}
+
+
+
+.btn-salir{
+    width: 70px;
+    height: 110px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    gap:8px;
+    color: black;
+    margin: 50px 0 0 6px;
+
+    background:white;
+    border:5px solid #093367;
+    cursor:pointer;
+    
+}
+
+.activo-container {
+  font-family: "Tahoma", "MS Sans Serif", sans-serif;
+  font-size: 12px;
+  background: white;
+  border: 0 2px 0 2px solid #1a415e;
+  padding: 10px;
+  width: 690px;
+  height: 500px;
+  color: #000;
+}
+
+.divider {
+  border: none;
+  border-top: 1px solid #808080;
+  border-bottom: 1px solid #fff;
+  margin: 8px 0;
+  background-color: red;
+}
+
+.activo-row {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin-bottom: 6px;
+  flex-wrap: wrap;
+}
+
+.field {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.field.inline label {
+  white-space: nowrap;
+  font-weight: bold;
+}
+
+input[type="text"],
+select,
+textarea {
+  background: #fff;
+  border: 2px solid;
+  border-color: #808080 #fff #fff #808080;
+  padding: 2px 4px;
+  font-family: inherit;
+  font-size: 12px;
+}
+
+input[type="text"] {
+    background-color: #afc2d8;
+  height: 18px;
+}
+
+input.short {
+  width: 32px;
+  text-align: end;
+  background-color: #afc2d8;
+}
+
+input.small {
+  width: 80px;
+  background-color: #afc2d8;
+}
+
+input.full {
+  flex: 1;
+  width: 100%;
+  background-color: #afc2d8;
+}
+
+select {
+  min-width: 160px;
+  background-color: #afc2d8;
+}
+
+textarea {
+  resize: none;
+  background-color: #afc2d8;
+  flex: 1;
+}
+
+/* checkboxes */
+.checkbox-label {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+/* bloque principal con labels a la izquierda */
+.activo-main {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.field-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.field-row label {
+  width: 110px;
+  font-weight: bold;
+  flex-shrink: 0;
+}
+
+.field-row.observaciones-row {
+  align-items: flex-start;
+}
+
+.stacked-fields {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  margin-left: 10px;
+}
+
+.right-label {
+  width: auto !important;
+  margin-left: 10px;
+}
+
+/* bloque de costos */
+.activo-costos {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+  margin-bottom: 6px;
+}
+
+.activo-costos .field {
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.activo-costos label {
+  font-weight: bold;
+}
+
+/* bloque inferior de calculo */
+.activo-bottom {
+  justify-content: flex-start;
+}
+
+.right-block {
+  margin-left: auto;
+}
+
+.calculados {
+  flex-wrap: wrap;
+}
+
+.btn-hoy {
+  margin-left: 6px;
+  width: 100px;
+}
+
+/* botones estilo win95 (bordes en relieve) */
+button {
+  font-family: inherit;
+  font-size: 12px;
+  background: linear-gradient(#94cadc, #205b72);
+  color: white;
+  border: 2px solid;
+  border-color: #fff #808080 #808080 #fff;
+  padding: 3px 12px;
+  cursor: pointer;
+}
+
+button:active {
+  border-color: #808080 #fff #fff #808080;
+}
+
+/* footer de navegacion */
+.activo-footer {
+  display: flex;
+  justify-content: center;
+  margin-left: 200px;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.btn-aprobar {
+  margin-left: auto;
+  background: linear-gradient(#94cadc, #205b72);
+  color: white;
+
+}
+
+.btn-aprobar:disabled {
+  color: #808080;
+  cursor: default;
+}
