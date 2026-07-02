@@ -16,15 +16,15 @@ function Sidebar() {
             <nav className="sidebar-nav">
 
                 <button className="btn-sidebar">
-                    <NavLink to="/grupo-contable" end className={({ isActive }) => isActive ? "sidebar-link activo" : "sidebar-link"}>Grupo Contable</NavLink>
+                    <NavLink to="/grupo-contable" end className={({ isActive }) => isActive ? "sidebar-link activo" : "sidebar-link"}>Grupos y Auxiliares</NavLink>
                 </button>
 
                 <button className="btn-sidebar">
-                    <NavLink to="/login" className={({ isActive }) => isActive ? "sidebar-link activo" : "sidebar-link"}>Login</NavLink>
+                    <NavLink to="/login" className={({ isActive }) => isActive ? "sidebar-link activo" : "sidebar-link"}>Iniciar Sesion</NavLink>
                 </button>
 
                 <button className="btn-sidebar">
-                    <NavLink to="/UnidadAdmin" end className={({ isActive }) => isActive ? "sidebar-link activo" : "sidebar-link"}>Unidad Administrativa</NavLink>
+                    <NavLink to="/AdminRecursos" end className={({ isActive }) => isActive ? "sidebar-link activo" : "sidebar-link"}>Administradores</NavLink>
                 </button>
 
 
@@ -34,8 +34,18 @@ function Sidebar() {
 
 
                 <button className="btn-sidebar">
-                    <NavLink to="/Seguridad" end className={({ isActive }) => isActive ? "sidebar-link activo" : "sidebar-link"}>Seguridad</NavLink>
+                    <NavLink to="/Seguridad" end className={({ isActive }) => isActive ? "sidebar-link activo" : "sidebar-link"}>Generar Reportes</NavLink>
                 </button>
+
+
+                <button className="btn-sidebar">
+                    <NavLink to="/UnidadAdmin" end className={({ isActive }) => isActive ? "sidebar-link activo" : "sidebar-link"}>Administrar Unidad</NavLink>
+                </button>
+
+                <button className="btn-sidebar">
+                    <NavLink to="/Oficina" end className={({ isActive }) => isActive ? "sidebar-link activo" : "sidebar-link"}>Oficinas y Responsables</NavLink>
+                </button>
+
 
                 {/* Aquí agregas los links de tus compañeros */}
                 {/* <NavLink to="/activos" className={({ isActive }) => isActive ? "sidebar-link activo" : "sidebar-link"}>Activos</NavLink> */}
