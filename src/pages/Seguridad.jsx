@@ -96,21 +96,21 @@ function Seguridad() {
 
   return (
     <div className="contenedor">
-      <header className="header-seguridad"><b>SEGURIDAD</b></header>
+      <header className="header-seguridad"><b>Seguridad</b></header>
       <div className="titulo">SEGURIDAD</div>
 
       <div className="panel">
         <div className="fila-superior">
           <div>
             <label>USUARIO:</label>
-            <input
+            <input className="input-fila-supp-seguridad"
 
             />
           </div>
 
           <div>
             <label>CONTRASEÑA ASIGNADA:</label>
-            <input
+            <input className="input-fila-supp-seguridad"
 
             />
           </div>
@@ -125,7 +125,7 @@ function Seguridad() {
 
         <div className="campo">
           <label>DESCRIPCIÓN:</label>
-          <textarea
+          <textarea className="text-area-seguridad"
             name="descripcion"
             value={formulario.descripcion}
             onChange={cambiarCampo}

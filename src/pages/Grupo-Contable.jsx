@@ -46,7 +46,7 @@ function GrupoContable(){
     return (
         <>
         <div className='ventana'>
-            <header className='header'>
+            <header className='header-grupo-contable'>
                 Grupos Contables
             </header>
             <main className='main'>
@@ -71,19 +71,19 @@ function GrupoContable(){
     <div className="grupo-izquierda">
         <div className="fila-gap">
             <h4>Grupo</h4>
-            <input value={actual.grupo} readOnly />
+            <input value={actual.grupo} className='input-grupo-contable' readOnly />
 
         </div>
         <div className="fila">
             <h4>Vida Util</h4>
-            <input value={0}/>
+            <input value={0} className='input-grupo-contable'/>
         </div>
     </div>
 
     <div className="grupo-derecha">
         <div className="fila-gap-2">
             <h4>nombre</h4>
-                <select value={seleccion} onChange={(e) => setSeleccion(e.target.value)}>
+                <select className='select-grupo-contable' value={seleccion} onChange={(e) => setSeleccion(e.target.value)}>
                 <option>EDIFICACIONES</option>
                 <option>MUEBLES Y ENCERES DE OFICINA</option>
                 <option>MAQUINARIA EN GENERAL</option>
@@ -94,7 +94,7 @@ function GrupoContable(){
         </div>
         <div className="fila">
             <h4>Observaciones</h4>
-            <textarea className='text-area' value={actual.observacion || ''} readOnly />
+            <textarea className='text-area-GC' value={actual.observacion || ''} readOnly />
         </div>
     </div>
 </div>
@@ -124,9 +124,9 @@ function GrupoContable(){
             <div className='buttons'>
                     <button className='btn-blue'>Nuevo</button>
                     <button className='btn-blue'>Modificar</button>
-                    <button className='btn-plomo'>Guardar</button>
+                    <button className='btn-plomo-GC'>Guardar</button>
                     <button className='btn-blue'>Eliminar</button>
-                    <button className='btn-plomo'>Deshacer</button>
+                    <button className='btn-plomo-GC'>Deshacer</button>
                     <button className='btn-blue'>Salir</button>
                 </div>
 

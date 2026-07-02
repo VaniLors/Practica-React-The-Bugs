@@ -5,9 +5,9 @@
   box-sizing: border-box;
 }
 
-.vsiaf-container {
+.vsiaf-container-Login{
   width: 700px;
-  height: 400px;
+  height: 350px;
   border: 2px solid #bdbdbd;
   font-family: Arial, Helvetica, sans-serif;
   background: white;
@@ -15,18 +15,18 @@
 }
 
 .top-bar {
-  height: 34px;
+  height: 20px;
   background: linear-gradient(to right, #000, #444);
   color: white;
   font-weight: bold;
   display: flex;
   align-items: center;
   padding-left: 10px;
-  font-size: 14px;
+  font-size: 11px;
 }
 
-.header {
-  height: 110px;
+.header-login{
+  height: 70px;
   background: linear-gradient(
     to bottom,
     #2e6da4,
@@ -39,12 +39,12 @@
 }
 
 .logo-area h1 {
-  font-size: 42px;
+  font-size: 30px;
   letter-spacing: 4px;
 }
 
 .logo-area span {
-  font-size: 20px;
+  font-size: 15px;
   font-style: italic;
 }
 
@@ -103,7 +103,7 @@
   font-size: 14px;
 }
 
-button {
+.button-login {
   width: 90px;
   height: 34px;
   border: 1px solid #8a8a8a;
@@ -116,13 +116,6 @@ button {
   font-weight: bold;
 }
 
-button:hover {
-  background: linear-gradient(
-    to bottom,
-    #ffffff,
-    #c3d7f0
-  );
-}
 
 .footer {
   height: 76px;

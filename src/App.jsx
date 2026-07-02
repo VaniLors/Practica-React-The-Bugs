@@ -1,16 +1,15 @@
-
 import { useState } from 'react'
-import Login from './pages/login.jsx'
 import './App.css'
-import Seguridad from './pages/Seguridad'
-
+import { FaPlus, FaEdit, FaCopy, FaSearch, FaTrash } from "react-icons/fa";
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import UnidadAdmin from './pages/UnidadAdmin'
+import Seguridad from './pages/Seguridad';
 import GrupoContable from './pages/Grupo-Contable'
+import Login from './pages/Login'
 import Sidebar from './components/Sidebar'
-import Login from './pages/login'
 import Header from './components/Header'
 import Home from './components/Home'
+import ActivosFijos from './pages/ActivosFijos'
 
 function App() {
   return (
@@ -25,6 +24,8 @@ function App() {
             <Route path="/grupo-contable" element={<GrupoContable />} />
             <Route path="/login" element={<Login />} />
             <Route path="/UnidadAdmin" element={<UnidadAdmin />} />
+            <Route path="/ActivosFijos" element={<ActivosFijos />} />
+            <Route path="/Seguridad" element={<Seguridad />} />
           </Routes>
         </main>
       </div>
@@ -33,4 +34,4 @@ function App() {
 
   )
 }
-export default App
+export default App;

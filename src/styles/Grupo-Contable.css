@@ -8,7 +8,7 @@
     border: 3px solid #f4f4f4;
     height: 100%; 
 }
-.header{
+.header-grupo-contable{
     background-color: black;
     color: white;
     font-size: 11px;
@@ -57,9 +57,9 @@ tr{
     
 }
 
-input{
+.input-grupo-contable{
     width: 30px;
-    text-align: end;
+    text-align: center;
     
 }
 
@@ -97,11 +97,13 @@ input{
     width: 400px;
 }
 
-select {
-    width: 80%;
+.select-grupo-contable {
+    width: 85%;
+    margin: 0 0 0 9px;
+    text-align: center;
 }
 
-textarea{
+.text-area-GC{
     display: flex;
     width: 320px;
     padding-top: 10px;
@@ -126,14 +128,15 @@ textarea{
 .btn-blue{
     color: white;
     width: 80px;
+    height: 30px;
     background: linear-gradient(
     rgba(82, 149, 167, 1),
     rgba(0, 45, 65));
     border: 2px solid #cccccc;
 }
 
-.btn-plomo{
-    background-color: rgb(135, 124, 124);
+.btn-plomo-GC{
+    background-color: rgb(164, 157, 157);
     width: 80px;
     color: white;
     border: 2px solid #cccccc;

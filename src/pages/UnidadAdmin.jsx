@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import '../styles/UnidadAdmin.css';
 
-export default function UnidadAdmin() {
+ function UnidadAdmin() {
   const [vista, setVista] = useState('tabla'); 
   const [mostrarModal, setMostrarModal] = useState(false);
   const [formData, setFormData] = useState({
@@ -144,3 +144,5 @@ export default function UnidadAdmin() {
     </div>
   );
 }
+
+export default UnidadAdmin;

@@ -1,15 +1,15 @@
 import React, { useState } from "react";
+import '../styles/ActivosFijos.css'
 import { FaPlus, FaEdit, FaCopy, FaSearch, FaTrash } from "react-icons/fa";
 import { AiOutlineFile } from "react-icons/ai";
 import { AiOutlineFolder } from "react-icons/ai";
 import { CiLogin } from "react-icons/ci";
 import { AiOutlineFileSearch } from "react-icons/ai";
-import { AiFillEdit } from "react-icons/ai";
-import { AiOutlineSwap } from "react-icons/ai";
-import { AiOutlineClose } from "react-icons/ai";
-import { AiOutlineBorder } from "react-icons/ai";
+import { AiFillEdit } from "react-icons/ai"
+import { AiOutlineSwap } from "react-icons/ai"
+import { AiOutlineClose } from "react-icons/ai"
+import { AiOutlineBorder } from "react-icons/ai"
 
-import '../src/ActivosFijo.css'
 
 
 function ActivosFijos() {
@@ -82,7 +82,7 @@ return (
                 <div className="activo-row activo-top">
                     <div className="field inline">
                         <label>CODIGO:</label>
-                        <input
+                        <input className="input-Activos-Fijo"
                         type="text"
                         name="codigo"
                         value={form.codigo}
@@ -130,7 +130,7 @@ return (
                 <div className="activo-row">
                     <div className="field inline">
                         <label>CODIGO ADI:</label>
-                        <input
+                        <input className="input-Codigo-adi"
                         type="text"
                         name="codigoAd"
                         value={form.codigoAd}
@@ -155,7 +155,7 @@ return (
                     
                     <div className="field-row">
                         <label>GRUPO:</label>
-                        <select name="grupo" value={form.grupo} onChange={handleChange}>
+                        <select className="select-grupo-ac" name="grupo" value={form.grupo} onChange={handleChange}>
                             <option value="">-- Seleccione --</option>
                             <option value="muebles">MUEBLES Y ENSERES DE OFICINA</option>
                         </select>
@@ -184,7 +184,7 @@ return (
 
                 <div className="field-row">
                   <label>AUXILIAR:</label>
-                  <select name="auxiliar" value={form.auxiliar} onChange={handleChange}>
+                  <select className="select-auxiliar-ac" name="auxiliar" value={form.auxiliar} onChange={handleChange}>
                     <option value="">-- Seleccione --</option>
                     <option value="sofa">SOFA</option>
                   </select>
@@ -192,7 +192,7 @@ return (
 
                 <div className="field-row">
                   <label>OFICINA:</label>
-                  <select name="oficina" value={form.oficina} onChange={handleChange}>
+                  <select className="select-oficina-ac" name="oficina" value={form.oficina} onChange={handleChange}>
                     <option value="">-- Seleccione --</option>
                     <option value="secretaria">SECRETARIA</option>
                   </select>
@@ -200,7 +200,7 @@ return (
 
                 <div className="field-row">
                   <label>RESPONSABLE:</label>
-                  <select
+                  <select className="select-responsable-ac"
                     name="responsable"
                     value={form.responsable}
                     onChange={handleChange}
@@ -223,7 +223,7 @@ return (
 
                 <div className="field-row">
                   <label>ESTADO ACTIVO:</label>
-                  <select
+                  <select className="select-estado-activo-ac"
                     name="estadoActivo"
                     value={form.estadoActivo}
                     onChange={handleChange}
@@ -244,17 +244,13 @@ return (
 
                 <div className="field-row observaciones-row">
                   <label>OBSERVACIONES:</label>
-                  <textarea
-                    name="observaciones"
-                    rows={3}
-                    value={form.observaciones}
-                    onChange={handleChange}
+                  <textarea className="textarea-AF"
                   />
 
                   <div className="stacked-fields">
                     <div className="field inline">
                       <label>ORG.FINANCIADOR:</label>
-                      <select
+                      <select className="select-Activos-Fijo"
                         name="orgFinanciador"
                         value={form.orgFinanciador}
                         onChange={handleChange}
@@ -265,7 +261,7 @@ return (
                     </div>
                     <div className="field inline">
                       <label>NRO CONVENIO:</label>
-                      <input
+                      <input className="input-Activos-Fijo"
                         type="text"
                         name="nroConvenio"
                         value={form.nroConvenio}

@@ -2,7 +2,7 @@
 import { useState } from "react";
 import '../styles/login.css';
 
-export default function Login() {
+ function Login() {
   const [usuario, setUsuario] = useState("");
   const [password, setPassword] = useState("");
 
@@ -16,12 +16,12 @@ export default function Login() {
   };
 
   return (
-    <div className="vsiaf-container">
+    <div className="vsiaf-container-Login">
       <div className="top-bar">
-        INGRESE SU IDENTIFICACIÓN
+        Ingrese su Identificacion
       </div>
 
-      <div className="header">
+      <div className="header-login">
         <div className="logo-area">
           <h1>V.S.I.A.F</h1>
           <span>Sistema de Activos Fijos</span>
@@ -55,7 +55,7 @@ export default function Login() {
               NOTA: Es sensible al contexto
             </span>
 
-            <button onClick={handleLogin}>
+            <button onClick={handleLogin}className="btn-login">
               Aceptar
             </button>
           </div>
@@ -71,3 +71,4 @@ export default function Login() {
   );
 }
 
+export default Login;
