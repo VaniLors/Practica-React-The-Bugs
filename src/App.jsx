@@ -1,6 +1,10 @@
 
 import { useState } from 'react'
+
+import Oficina from './pages/Oficina'
+
 import Login from './pages/login.jsx'
+
 import './App.css'
 import Seguridad from './pages/Seguridad'
 
@@ -15,6 +19,9 @@ import Home from './components/Home'
 function App() {
   return (
     <>
+
+      <Oficina />
+
     <Header />
     <BrowserRouter>
       <div className="app-shell">
@@ -29,6 +36,7 @@ function App() {
         </main>
       </div>
     </BrowserRouter>
+
     </>
 
   )
