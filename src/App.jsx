@@ -6,6 +6,9 @@ import Oficina from './pages/Oficina'
 import Login from './pages/login.jsx'
 
 import './App.css'
+
+import AdminRecursos from './pages/Admin-Recursos'
+
 import Seguridad from './pages/Seguridad'
 
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
@@ -19,6 +22,9 @@ import Home from './components/Home'
 function App() {
   return (
     <>
+
+      <AdminRecursos />
+
 
       <Oficina />
 
@@ -36,6 +42,7 @@ function App() {
         </main>
       </div>
     </BrowserRouter>
+
 
     </>
 
