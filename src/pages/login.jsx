@@ -2,7 +2,7 @@
 import { useState } from "react";
 import '../styles/login.css';
 
-export default function LoginVSIAF() {
+export default function Login() {
   const [usuario, setUsuario] = useState("");
   const [password, setPassword] = useState("");
 
@@ -70,15 +70,4 @@ export default function LoginVSIAF() {
     </div>
   );
 }
-import React from 'react'
-import '../styles/login.css'
 
-function Login() {
-  return (
-    <>
-        <h1>holamundo</h1>
-    </>
-  )
-}
-
-export default Login
